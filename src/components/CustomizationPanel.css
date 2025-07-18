@@ -1,0 +1,4 @@
+.selected-icon {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+  transform: scale(1.05);
+}
