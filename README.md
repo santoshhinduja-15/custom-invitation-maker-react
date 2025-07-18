@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Custom Invitation Maker
+Custom Invitation Maker is a React-based web application that lets users easily design and download personalized invitations for Birthday, Wedding, and Party events. Built using HTML, CSS (Bootstrap), and JavaScript (React), this tool is fully frontend-based and does not require any backend setup.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+- 🎨 Choose event type: Birthday, Wedding, or Party
+- 🖼️ Automatically displays event-specific invitation templates
+- 🎯 Add and preview custom icons related to the event
+- ✏️ Customize invitation text, font, size, color, and alignment
+- 🕓 Set event date and time (12-hour format)
+- 📍 Add event location
+- 🌈 Background color customization
+- 🔻 Download invitation as a PDF using `html2canvas` and `jsPDF`
+- ⚙️ Responsive and visually engaging UI using Bootstrap
 
-## Available Scripts
+# Technologies Used
+- React
+- Bootstrap
+- HTML & CSS
+- JavaScript
+- html2canvas
+- jsPDF
 
-In the project directory, you can run:
+# Installation
+git clone https://github.com/santoshhinduja-15/custom-invitation-maker-react
+cd custom-invitation-maker
+npm install
+npm start
 
-### `npm start`
+# Screenshots
+Birthday Invitation
+<img width="1290" height="782" alt="image" src="https://github.com/user-attachments/assets/39d2c08e-522d-48bf-93f6-e27feefa5dea" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Weeding Invitation
+<img width="1434" height="872" alt="image" src="https://github.com/user-attachments/assets/aebeb375-b7a8-4b87-b2ca-fa4648d9cc1e" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Party Invitation
+<img width="1504" height="865" alt="image" src="https://github.com/user-attachments/assets/0af0d4dc-d06f-4d23-aff7-7e9220b8d08a" />
